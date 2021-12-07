@@ -1,8 +1,6 @@
 # QYUINavigationBarCategory
 A handy collection of UINavigationBar categories.
 
-[![CI Status](https://img.shields.io/travis/insect/QYUINavigationBarCategory.svg?style=flat)](https://travis-ci.org/insect/QYUINavigationBarCategory)
-
 [![Version](https://img.shields.io/cocoapods/v/QYUINavigationBarCategory.svg?style=flat)](https://cocoapods.org/pods/QYUINavigationBarCategory)
 
 [![License](https://img.shields.io/cocoapods/l/QYUINavigationBarCategory.svg?style=flat)](https://cocoapods.org/pods/QYUINavigationBarCategory)

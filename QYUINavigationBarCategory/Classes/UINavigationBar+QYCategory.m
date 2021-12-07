@@ -65,7 +65,9 @@
 - (void)qy_setIsTransparent:(BOOL)isTransparent {
     if (@available(iOS 13.0, *)) {
         if (isTransparent) {
+            self.hidden = YES;
             [self.qy_standardAppearance configureWithTransparentBackground];
+            self.hidden = NO;
         } else {
             [self.qy_standardAppearance configureWithDefaultBackground];
         }

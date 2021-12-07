@@ -9,13 +9,21 @@ A handy collection of UINavigationBar categories.
 
 [![Platform](https://img.shields.io/cocoapods/p/QYUINavigationBarCategory.svg?style=flat)](https://cocoapods.org/pods/QYUINavigationBarCategory)
 
+## Swift Verison
+
+[QYUINavigationBarExtension](https://github.com/InsectQY/QYUINavigationBarExtension)
+
 ## Requirements
 
-iOS 9.0 +
+- iOS 9.0 or later
 
 ## How to use
 
-1. import
+1. Import
+
+   ```objective-c
+   #import <UINavigationBar+QYCategory.h>
+   ```
 
 2. Set the properties you need
 

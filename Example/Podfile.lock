@@ -1,0 +1,16 @@
+PODS:
+  - QYUINavigationBarCategory (0.1.0)
+
+DEPENDENCIES:
+  - QYUINavigationBarCategory (from `../`)
+
+EXTERNAL SOURCES:
+  QYUINavigationBarCategory:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  QYUINavigationBarCategory: 8d72f1f3f1008a75ca0fa157d2ebd50f4f47edcd
+
+PODFILE CHECKSUM: 5c98f3b1a1c3ef7eaf0da9bb9ddc7a2737899b04
+
+COCOAPODS: 1.11.2

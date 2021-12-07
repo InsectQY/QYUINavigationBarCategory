@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'QYUINavigationBarCategory_Example' do
+  pod 'QYUINavigationBarCategory', :path => '../'
+
+  target 'QYUINavigationBarCategory_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

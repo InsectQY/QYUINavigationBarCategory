@@ -1,0 +1,22 @@
+{
+  "name": "QYUINavigationBarCategory",
+  "version": "0.1.0",
+  "summary": "A short description of QYUINavigationBarCategory.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/insect/QYUINavigationBarCategory",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "insect": "704861917@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/insect/QYUINavigationBarCategory.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "QYUINavigationBarCategory/Classes/**/*"
+}

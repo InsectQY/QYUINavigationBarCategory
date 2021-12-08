@@ -7,7 +7,7 @@
 //
 
 #import "QYViewController.h"
-#import <UINavigationBar+QYCategory.h>
+#import <QYUINavigationBarCategory.h>
 
 @interface QYViewController ()
 
@@ -18,11 +18,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 	
-    self.navigationController.navigationBar.qy_backgroundImage =
-    self.navigationController.navigationBar.qy_backgroundColor =
-    self.navigationController.navigationBar.qy_titleTextAttributes =
-    [self.navigationController.navigationBar qy_setIsTransparent:<#(BOOL)#>];
+    self.navigationController.navigationBar.qy_backgroundImage = [UIImage imageNamed:@""];
+    self.navigationController.navigationBar.qy_backgroundColor = [UIColor whiteColor];
+    self.navigationController.navigationBar.qy_titleTextAttributes = @{NSForegroundColorAttributeName : [UIColor blackColor],
+                                                                       NSFontAttributeName: [UIFont boldSystemFontOfSize:20]};
+    [self.navigationController qy_setNavigationBarTransparent:NO];
 }
-
 
 @end

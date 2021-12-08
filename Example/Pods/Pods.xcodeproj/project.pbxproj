@@ -7,79 +7,85 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0DFEB034A1BA8373D6581DA83257A195 /* UINavigationBar+QYCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = ED0D1E49B777FAB87AFF089211496E10 /* UINavigationBar+QYCategory.m */; };
-		35BA9337041ABB295B8B9500ACDBA831 /* UINavigationBar+QYCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = EA27F608D1F9656ADC633A8B7FCCBD3F /* UINavigationBar+QYCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		371F75CA9A53F9948C8A82F6A7C020F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		35DC1A2144C1F6F6A40E337C141670BF /* QYUINavigationBarCategory-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E4FFD885AA8D1EB099BDEEECF6C9EE2F /* QYUINavigationBarCategory-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3CC33A550486CE08B831353E3B48855F /* QYUINavigationBarCategory-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF044DEFAE6C9A7B55950E4358601B58 /* QYUINavigationBarCategory-dummy.m */; };
 		46B03BC2A9F3462FBBEFED062933E446 /* Pods-QYUINavigationBarCategory_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90AF1191010C8E77A804B13EC70DD3A2 /* Pods-QYUINavigationBarCategory_Tests-dummy.m */; };
 		5892A3FCA4B2286C538754E12665B4F6 /* Pods-QYUINavigationBarCategory_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D9DBD111F90789D3D1B2E9F8D9CE7B3 /* Pods-QYUINavigationBarCategory_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61411495A8EE2A591F73B48ED32C43EC /* UINavigationBar+QYCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 92F31170EB57409FFC55B76F54126588 /* UINavigationBar+QYCategory.m */; };
+		64A265001D04BEF15C91A225C863152C /* UINavigationBar+QYCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = FF93A79AFC8DF2DCA3C40398C44F80D8 /* UINavigationBar+QYCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		72170765EA00918C1098EB42CB4714C6 /* Pods-QYUINavigationBarCategory_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C1353EF5860DCAA9D4E2B33C032BB65B /* Pods-QYUINavigationBarCategory_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AADF4DE22AF0FE542BE7595AA29EF5B3 /* QYUINavigationBarCategory-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6A9F7604C824CFC7457E74837B161C /* QYUINavigationBarCategory-dummy.m */; };
+		73826756C56A06E29FCB97AEDF78930F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		C8BE9EDBE5CB4CB1D3859189650CF9EE /* Pods-QYUINavigationBarCategory_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2901EEC8DEAAA403ED267AA219C95B27 /* Pods-QYUINavigationBarCategory_Example-dummy.m */; };
-		D8E435E412EEC6903705DE2D48593EFB /* QYUINavigationBarCategory-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F4C3F646795776C87C490387146F246 /* QYUINavigationBarCategory-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7F9CAD326B897C3E8735F805D60778F /* QYUINavigationBarCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A04243FECE2C74DEFAFEDAF714D736F /* QYUINavigationBarCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF21ED8777404CAC666783F26A10A0B3 /* UINavigationController+QYCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 71DB5CB0205B4C25DE55F0B4DA63B39A /* UINavigationController+QYCategory.m */; };
 		E6D45DB9CEA6CC87E00F326B55A27B70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		EB8E8DB998BC608BC61EBC436A7E9D17 /* UINavigationController+QYCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = BA003776053EB2B21BEA88CC9E8FA0E6 /* UINavigationController+QYCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FB1C133FED25F9EF8B8EA5F58499655E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		065A301EFE5D2A79E9FAC90C75814240 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5D4A3DD1B27839BFA6ABE72B894A6CC3;
-			remoteInfo = "Pods-QYUINavigationBarCategory_Example";
-		};
-		681B9C80340AAB0B654E03424623F6C8 /* PBXContainerItemProxy */ = {
+		2FC78F2ADD72205E4D4C6613FF9541A5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A13C63ECD0028D56E64E6F39528E8015;
 			remoteInfo = QYUINavigationBarCategory;
 		};
+		929A31C9FAF865ACB4662348C4277910 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D4A3DD1B27839BFA6ABE72B894A6CC3;
+			remoteInfo = "Pods-QYUINavigationBarCategory_Example";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		026910E242FE3952054774F68F4D9234 /* QYUINavigationBarCategory.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = QYUINavigationBarCategory.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0D9DBD111F90789D3D1B2E9F8D9CE7B3 /* Pods-QYUINavigationBarCategory_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QYUINavigationBarCategory_Example-umbrella.h"; sourceTree = "<group>"; };
-		1F4D923EE623C33970C63C8D474CEC0C /* QYUINavigationBarCategory-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QYUINavigationBarCategory-prefix.pch"; sourceTree = "<group>"; };
-		26A27FDE72188E5A3F7D9D927806BC78 /* QYUINavigationBarCategory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QYUINavigationBarCategory.release.xcconfig; sourceTree = "<group>"; };
 		2901EEC8DEAAA403ED267AA219C95B27 /* Pods-QYUINavigationBarCategory_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QYUINavigationBarCategory_Example-dummy.m"; sourceTree = "<group>"; };
 		2AB5531172A236E9FD1766AEF5EB0BF9 /* Pods-QYUINavigationBarCategory_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-QYUINavigationBarCategory_Example"; path = Pods_QYUINavigationBarCategory_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3326775845345A6B6D0E621A83B45F74 /* QYUINavigationBarCategory-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QYUINavigationBarCategory-prefix.pch"; sourceTree = "<group>"; };
 		39C1E46E003C931BD6787F9EC77FE4F7 /* Pods-QYUINavigationBarCategory_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-QYUINavigationBarCategory_Tests"; path = Pods_QYUINavigationBarCategory_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CFD167F20DC38F0743D29907ADC7A8F /* Pods-QYUINavigationBarCategory_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QYUINavigationBarCategory_Tests-Info.plist"; sourceTree = "<group>"; };
 		3D7E9F6A0CA9BC7F6F0616F7FAA43CDB /* Pods-QYUINavigationBarCategory_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QYUINavigationBarCategory_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		3F4C3F646795776C87C490387146F246 /* QYUINavigationBarCategory-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QYUINavigationBarCategory-umbrella.h"; sourceTree = "<group>"; };
 		41B2285BD6A96E3470981CDB7A5CAFA2 /* Pods-QYUINavigationBarCategory_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QYUINavigationBarCategory_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4345FC656CE1132B972FD8D5EC4A2FFD /* Pods-QYUINavigationBarCategory_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QYUINavigationBarCategory_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		498DAA6AFB463F3F8F8FD15ED5022E74 /* Pods-QYUINavigationBarCategory_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QYUINavigationBarCategory_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4C3B1313D42B269C096F9E0B83981C5D /* Pods-QYUINavigationBarCategory_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QYUINavigationBarCategory_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		53190AB16B99D6B90CF679DA790AE6F1 /* Pods-QYUINavigationBarCategory_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QYUINavigationBarCategory_Example-frameworks.sh"; sourceTree = "<group>"; };
 		633A6F3B9E2D5DF96FEA1AC13023D9F4 /* QYUINavigationBarCategory */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QYUINavigationBarCategory; path = QYUINavigationBarCategory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		677C5046B4E9466CCF32BF06A7AA9C0E /* QYUINavigationBarCategory.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QYUINavigationBarCategory.modulemap; sourceTree = "<group>"; };
+		6A04243FECE2C74DEFAFEDAF714D736F /* QYUINavigationBarCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QYUINavigationBarCategory.h; path = QYUINavigationBarCategory/Classes/QYUINavigationBarCategory.h; sourceTree = "<group>"; };
+		6E32F5011F88C067BBCB247E70A9525B /* QYUINavigationBarCategory.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QYUINavigationBarCategory.modulemap; sourceTree = "<group>"; };
+		716257A6A87C336F494044DB1C827578 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		71DB5CB0205B4C25DE55F0B4DA63B39A /* UINavigationController+QYCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+QYCategory.m"; path = "QYUINavigationBarCategory/Classes/UINavigationController+QYCategory.m"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7E6C8A9D5A74FDFF4C8D0A110FA5B802 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		90AF1191010C8E77A804B13EC70DD3A2 /* Pods-QYUINavigationBarCategory_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QYUINavigationBarCategory_Tests-dummy.m"; sourceTree = "<group>"; };
-		94112EAE95EB08EB6C89018C267C3742 /* QYUINavigationBarCategory-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QYUINavigationBarCategory-Info.plist"; sourceTree = "<group>"; };
+		92F31170EB57409FFC55B76F54126588 /* UINavigationBar+QYCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationBar+QYCategory.m"; path = "QYUINavigationBarCategory/Classes/UINavigationBar+QYCategory.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BA0204FFD9C753D3DD6A5F0433A41BDC /* QYUINavigationBarCategory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QYUINavigationBarCategory.debug.xcconfig; sourceTree = "<group>"; };
+		A4C3FAA44237F4F878F6254B7491216D /* QYUINavigationBarCategory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QYUINavigationBarCategory.debug.xcconfig; sourceTree = "<group>"; };
+		BA003776053EB2B21BEA88CC9E8FA0E6 /* UINavigationController+QYCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+QYCategory.h"; path = "QYUINavigationBarCategory/Classes/UINavigationController+QYCategory.h"; sourceTree = "<group>"; };
 		C1353EF5860DCAA9D4E2B33C032BB65B /* Pods-QYUINavigationBarCategory_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QYUINavigationBarCategory_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C562D0BA1591479894961D4F222EEDE9 /* QYUINavigationBarCategory.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = QYUINavigationBarCategory.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C667FDA7612BB7983A2BE54843853388 /* Pods-QYUINavigationBarCategory_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QYUINavigationBarCategory_Tests.modulemap"; sourceTree = "<group>"; };
 		CDF5FABF82A4040EBE49582520BCDF25 /* Pods-QYUINavigationBarCategory_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QYUINavigationBarCategory_Example.modulemap"; sourceTree = "<group>"; };
+		CF044DEFAE6C9A7B55950E4358601B58 /* QYUINavigationBarCategory-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QYUINavigationBarCategory-dummy.m"; sourceTree = "<group>"; };
+		CF82AA0B3F909578F801077271317F28 /* QYUINavigationBarCategory-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QYUINavigationBarCategory-Info.plist"; sourceTree = "<group>"; };
 		D88F24D30974BA8A1D48F7B3AEDF3900 /* Pods-QYUINavigationBarCategory_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QYUINavigationBarCategory_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		DD491157B200000FCF257B3BF72ADD00 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		DE6A9F7604C824CFC7457E74837B161C /* QYUINavigationBarCategory-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QYUINavigationBarCategory-dummy.m"; sourceTree = "<group>"; };
+		E4FFD885AA8D1EB099BDEEECF6C9EE2F /* QYUINavigationBarCategory-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QYUINavigationBarCategory-umbrella.h"; sourceTree = "<group>"; };
+		E53E371E0A105B84F05EE0453095310C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		E8440C3AF5F484E8F25B229D87280719 /* Pods-QYUINavigationBarCategory_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QYUINavigationBarCategory_Example-Info.plist"; sourceTree = "<group>"; };
-		EA27F608D1F9656ADC633A8B7FCCBD3F /* UINavigationBar+QYCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationBar+QYCategory.h"; path = "QYUINavigationBarCategory/Classes/UINavigationBar+QYCategory.h"; sourceTree = "<group>"; };
+		E9723D1CA17DFDE89DA60460B6061D3B /* QYUINavigationBarCategory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QYUINavigationBarCategory.release.xcconfig; sourceTree = "<group>"; };
 		ECC08F47D27806C007A157320E073AB2 /* Pods-QYUINavigationBarCategory_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QYUINavigationBarCategory_Example.release.xcconfig"; sourceTree = "<group>"; };
-		ED0D1E49B777FAB87AFF089211496E10 /* UINavigationBar+QYCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationBar+QYCategory.m"; path = "QYUINavigationBarCategory/Classes/UINavigationBar+QYCategory.m"; sourceTree = "<group>"; };
 		EFECF5BE0938A272BF41F71361612F9B /* Pods-QYUINavigationBarCategory_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QYUINavigationBarCategory_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		FF93A79AFC8DF2DCA3C40398C44F80D8 /* UINavigationBar+QYCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationBar+QYCategory.h"; path = "QYUINavigationBarCategory/Classes/UINavigationBar+QYCategory.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		51BA4DD52A93BF063CA0510F4E5F81D6 /* Frameworks */ = {
+		01D5A771115FB9EB33EAF95DF112F41F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				371F75CA9A53F9948C8A82F6A7C020F1 /* Foundation.framework in Frameworks */,
+				73826756C56A06E29FCB97AEDF78930F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,32 +108,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1FBFD1277FD681A5B5977D60D16060DB /* QYUINavigationBarCategory */ = {
+		02DAFF2881F32413B43831B8962A257C /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				EA27F608D1F9656ADC633A8B7FCCBD3F /* UINavigationBar+QYCategory.h */,
-				ED0D1E49B777FAB87AFF089211496E10 /* UINavigationBar+QYCategory.m */,
-				28260EE80F5DE12EF368079D8BC9A48A /* Pod */,
-				CFCDD65EA96A1BCC23B817C51E4122D3 /* Support Files */,
-			);
-			name = QYUINavigationBarCategory;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		28260EE80F5DE12EF368079D8BC9A48A /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				7E6C8A9D5A74FDFF4C8D0A110FA5B802 /* LICENSE */,
-				026910E242FE3952054774F68F4D9234 /* QYUINavigationBarCategory.podspec */,
-				DD491157B200000FCF257B3BF72ADD00 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		4EEE3A62E7B50D73F18B48DCC9D3BCEB /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				1FBFD1277FD681A5B5977D60D16060DB /* QYUINavigationBarCategory */,
+				A9698511F992260D5B0F21A846AA3575 /* QYUINavigationBarCategory */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -157,6 +141,16 @@
 			path = "Target Support Files/Pods-QYUINavigationBarCategory_Example";
 			sourceTree = "<group>";
 		};
+		65395AED1E55F7357451D251C520F817 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				716257A6A87C336F494044DB1C827578 /* LICENSE */,
+				C562D0BA1591479894961D4F222EEDE9 /* QYUINavigationBarCategory.podspec */,
+				E53E371E0A105B84F05EE0453095310C /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		753DFE79E4B64D38E6BDD638948C4D9A /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -183,6 +177,36 @@
 			path = "Target Support Files/Pods-QYUINavigationBarCategory_Tests";
 			sourceTree = "<group>";
 		};
+		A1D72FD8E9D3F4032ACDB753A70DACC1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E32F5011F88C067BBCB247E70A9525B /* QYUINavigationBarCategory.modulemap */,
+				CF044DEFAE6C9A7B55950E4358601B58 /* QYUINavigationBarCategory-dummy.m */,
+				CF82AA0B3F909578F801077271317F28 /* QYUINavigationBarCategory-Info.plist */,
+				3326775845345A6B6D0E621A83B45F74 /* QYUINavigationBarCategory-prefix.pch */,
+				E4FFD885AA8D1EB099BDEEECF6C9EE2F /* QYUINavigationBarCategory-umbrella.h */,
+				A4C3FAA44237F4F878F6254B7491216D /* QYUINavigationBarCategory.debug.xcconfig */,
+				E9723D1CA17DFDE89DA60460B6061D3B /* QYUINavigationBarCategory.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/QYUINavigationBarCategory";
+			sourceTree = "<group>";
+		};
+		A9698511F992260D5B0F21A846AA3575 /* QYUINavigationBarCategory */ = {
+			isa = PBXGroup;
+			children = (
+				6A04243FECE2C74DEFAFEDAF714D736F /* QYUINavigationBarCategory.h */,
+				FF93A79AFC8DF2DCA3C40398C44F80D8 /* UINavigationBar+QYCategory.h */,
+				92F31170EB57409FFC55B76F54126588 /* UINavigationBar+QYCategory.m */,
+				BA003776053EB2B21BEA88CC9E8FA0E6 /* UINavigationController+QYCategory.h */,
+				71DB5CB0205B4C25DE55F0B4DA63B39A /* UINavigationController+QYCategory.m */,
+				65395AED1E55F7357451D251C520F817 /* Pod */,
+				A1D72FD8E9D3F4032ACDB753A70DACC1 /* Support Files */,
+			);
+			name = QYUINavigationBarCategory;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		C3DDBB2F15F34B6237445CE721BB2DC6 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -196,26 +220,11 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				4EEE3A62E7B50D73F18B48DCC9D3BCEB /* Development Pods */,
+				02DAFF2881F32413B43831B8962A257C /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				753DFE79E4B64D38E6BDD638948C4D9A /* Products */,
 				C3DDBB2F15F34B6237445CE721BB2DC6 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		CFCDD65EA96A1BCC23B817C51E4122D3 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				677C5046B4E9466CCF32BF06A7AA9C0E /* QYUINavigationBarCategory.modulemap */,
-				DE6A9F7604C824CFC7457E74837B161C /* QYUINavigationBarCategory-dummy.m */,
-				94112EAE95EB08EB6C89018C267C3742 /* QYUINavigationBarCategory-Info.plist */,
-				1F4D923EE623C33970C63C8D474CEC0C /* QYUINavigationBarCategory-prefix.pch */,
-				3F4C3F646795776C87C490387146F246 /* QYUINavigationBarCategory-umbrella.h */,
-				BA0204FFD9C753D3DD6A5F0433A41BDC /* QYUINavigationBarCategory.debug.xcconfig */,
-				26A27FDE72188E5A3F7D9D927806BC78 /* QYUINavigationBarCategory.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/QYUINavigationBarCategory";
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -237,20 +246,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		918195F186C65F79F14DBF92BA1470D4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7F9CAD326B897C3E8735F805D60778F /* QYUINavigationBarCategory.h in Headers */,
+				35DC1A2144C1F6F6A40E337C141670BF /* QYUINavigationBarCategory-umbrella.h in Headers */,
+				64A265001D04BEF15C91A225C863152C /* UINavigationBar+QYCategory.h in Headers */,
+				EB8E8DB998BC608BC61EBC436A7E9D17 /* UINavigationController+QYCategory.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		96C3954214CBE2D73DCBC7B650C96278 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				72170765EA00918C1098EB42CB4714C6 /* Pods-QYUINavigationBarCategory_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CCF08BB9AD1A0E1F2CD17C6956A9762A /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D8E435E412EEC6903705DE2D48593EFB /* QYUINavigationBarCategory-umbrella.h in Headers */,
-				35BA9337041ABB295B8B9500ACDBA831 /* UINavigationBar+QYCategory.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +280,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				35E72519845F2D457825EA705FCA5E1D /* PBXTargetDependency */,
+				497B650DBD88044B08D8C85A7F290EA5 /* PBXTargetDependency */,
 			);
 			name = "Pods-QYUINavigationBarCategory_Tests";
 			productName = Pods_QYUINavigationBarCategory_Tests;
@@ -288,7 +299,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				EF651C578BA63DD1DED4710DC7F58E92 /* PBXTargetDependency */,
+				5F488B31750B773493540D217F4023D2 /* PBXTargetDependency */,
 			);
 			name = "Pods-QYUINavigationBarCategory_Example";
 			productName = Pods_QYUINavigationBarCategory_Example;
@@ -297,12 +308,12 @@
 		};
 		A13C63ECD0028D56E64E6F39528E8015 /* QYUINavigationBarCategory */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 82F8DB8B5DBB09EA2F5A45CF415AC680 /* Build configuration list for PBXNativeTarget "QYUINavigationBarCategory" */;
+			buildConfigurationList = B11A410C01A96BCEABCE986681DBB709 /* Build configuration list for PBXNativeTarget "QYUINavigationBarCategory" */;
 			buildPhases = (
-				CCF08BB9AD1A0E1F2CD17C6956A9762A /* Headers */,
-				73421F9C4CBC5877DED42722E9EC858B /* Sources */,
-				51BA4DD52A93BF063CA0510F4E5F81D6 /* Frameworks */,
-				CC9DC66A660D5F3F2AC23E23F905A094 /* Resources */,
+				918195F186C65F79F14DBF92BA1470D4 /* Headers */,
+				E0604B3404836020F398B001E373A951 /* Sources */,
+				01D5A771115FB9EB33EAF95DF112F41F /* Frameworks */,
+				37A28F28A8B562FBD1D959F9B3090256 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -343,6 +354,13 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		37A28F28A8B562FBD1D959F9B3090256 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		69A95C929EF35DE45809B2EA1CA5EC15 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -351,13 +369,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		78BBBB0310868991C175554C6438BCBC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CC9DC66A660D5F3F2AC23E23F905A094 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -375,15 +386,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		73421F9C4CBC5877DED42722E9EC858B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AADF4DE22AF0FE542BE7595AA29EF5B3 /* QYUINavigationBarCategory-dummy.m in Sources */,
-				0DFEB034A1BA8373D6581DA83257A195 /* UINavigationBar+QYCategory.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		871AA5C98CD495F5D63528C4D9AD06F3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -392,20 +394,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E0604B3404836020F398B001E373A951 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CC33A550486CE08B831353E3B48855F /* QYUINavigationBarCategory-dummy.m in Sources */,
+				61411495A8EE2A591F73B48ED32C43EC /* UINavigationBar+QYCategory.m in Sources */,
+				DF21ED8777404CAC666783F26A10A0B3 /* UINavigationController+QYCategory.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		35E72519845F2D457825EA705FCA5E1D /* PBXTargetDependency */ = {
+		497B650DBD88044B08D8C85A7F290EA5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-QYUINavigationBarCategory_Example";
 			target = 5D4A3DD1B27839BFA6ABE72B894A6CC3 /* Pods-QYUINavigationBarCategory_Example */;
-			targetProxy = 065A301EFE5D2A79E9FAC90C75814240 /* PBXContainerItemProxy */;
+			targetProxy = 929A31C9FAF865ACB4662348C4277910 /* PBXContainerItemProxy */;
 		};
-		EF651C578BA63DD1DED4710DC7F58E92 /* PBXTargetDependency */ = {
+		5F488B31750B773493540D217F4023D2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = QYUINavigationBarCategory;
 			target = A13C63ECD0028D56E64E6F39528E8015 /* QYUINavigationBarCategory */;
-			targetProxy = 681B9C80340AAB0B654E03424623F6C8 /* PBXContainerItemProxy */;
+			targetProxy = 2FC78F2ADD72205E4D4C6613FF9541A5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -436,36 +448,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		21EA2E9408E7A03C381FB7D490EEA46D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BA0204FFD9C753D3DD6A5F0433A41BDC /* QYUINavigationBarCategory.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/QYUINavigationBarCategory/QYUINavigationBarCategory-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/QYUINavigationBarCategory/QYUINavigationBarCategory-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/QYUINavigationBarCategory/QYUINavigationBarCategory.modulemap";
-				PRODUCT_MODULE_NAME = QYUINavigationBarCategory;
-				PRODUCT_NAME = QYUINavigationBarCategory;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -564,6 +546,36 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8F09E00E2F94346EA773B53AC9D5276C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4C3FAA44237F4F878F6254B7491216D /* QYUINavigationBarCategory.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QYUINavigationBarCategory/QYUINavigationBarCategory-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QYUINavigationBarCategory/QYUINavigationBarCategory-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QYUINavigationBarCategory/QYUINavigationBarCategory.modulemap";
+				PRODUCT_MODULE_NAME = QYUINavigationBarCategory;
+				PRODUCT_NAME = QYUINavigationBarCategory;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -698,9 +710,9 @@
 			};
 			name = Release;
 		};
-		D16A5857CD636651FE5956F56C965688 /* Release */ = {
+		DE546D0B33A4F44E0EA15BDB54366E8D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 26A27FDE72188E5A3F7D9D927806BC78 /* QYUINavigationBarCategory.release.xcconfig */;
+			baseConfigurationReference = E9723D1CA17DFDE89DA60460B6061D3B /* QYUINavigationBarCategory.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -750,20 +762,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		82F8DB8B5DBB09EA2F5A45CF415AC680 /* Build configuration list for PBXNativeTarget "QYUINavigationBarCategory" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				21EA2E9408E7A03C381FB7D490EEA46D /* Debug */,
-				D16A5857CD636651FE5956F56C965688 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		A3AAE8068227D5EA627F34A4A7243BBC /* Build configuration list for PBXNativeTarget "Pods-QYUINavigationBarCategory_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0294548E6C87C18BA86FA87F75107199 /* Debug */,
 				9FBA04348E69711BA36B8F87CDA45C5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B11A410C01A96BCEABCE986681DBB709 /* Build configuration list for PBXNativeTarget "QYUINavigationBarCategory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F09E00E2F94346EA773B53AC9D5276C /* Debug */,
+				DE546D0B33A4F44E0EA15BDB54366E8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

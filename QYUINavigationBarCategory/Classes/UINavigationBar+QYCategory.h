@@ -21,6 +21,6 @@
 @property (nonatomic, readwrite, strong, nullable) UIImage *qy_backgroundImage;
 
 /// Set the UINavigationBar background to transparent.
-- (void)qy_setIsTransparent:(BOOL)isTransparent;
+- (void)qy_setTransparent:(BOOL)transparent;
 
 @end

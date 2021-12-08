@@ -10,7 +10,9 @@
 #endif
 #endif
 
+#import "QYUINavigationBarCategory.h"
 #import "UINavigationBar+QYCategory.h"
+#import "UINavigationController+QYCategory.h"
 
 FOUNDATION_EXPORT double QYUINavigationBarCategoryVersionNumber;
 FOUNDATION_EXPORT const unsigned char QYUINavigationBarCategoryVersionString[];

@@ -7,6 +7,10 @@ A handy collection of UINavigationBar categories.
 
 [![Platform](https://img.shields.io/cocoapods/p/QYUINavigationBarCategory.svg?style=flat)](https://cocoapods.org/pods/QYUINavigationBarCategory)
 
+## Features
+
+One line of code sets the common properties of the UINavigationBar, regardless of version adaptation.
+
 ## Swift Verison
 
 [QYUINavigationBarExtension](https://github.com/InsectQY/QYUINavigationBarExtension)
@@ -20,15 +24,16 @@ A handy collection of UINavigationBar categories.
 1. Import
 
    ```objective-c
-   #import <UINavigationBar+QYCategory.h>
+   #import <QYUINavigationBarCategory.h>
    ```
 
 2. Set the properties you need
 
    ```objective-c
-   self.navigationController.navigationBar.qy_backgroundImage =
-   self.navigationController.navigationBar.qy_backgroundColor =
-   self.navigationController.navigationBar.qy_titleTextAttributes =[self.navigationController.navigationBar qy_setIsTransparent: ];
+   self.navigationController.navigationBar.qy_backgroundImage = [UIImage imageNamed:@""];
+   self.navigationController.navigationBar.qy_backgroundColor = [UIColor whiteColor];
+   self.navigationController.navigationBar.qy_titleTextAttributes = @{NSForegroundColorAttributeName : [UIColor blackColor]};
+   [self.navigationController qy_setNavigationBarTransparent:NO];
    ```
 
 ## Comment
@@ -45,7 +50,7 @@ A handy collection of UINavigationBar categories.
 @property (nonatomic, readwrite, strong, nullable) UIImage *qy_backgroundImage;
 
 /// Set the UINavigationBar background to transparent.
-- (void)qy_setIsTransparent:(BOOL)isTransparent;
+- (void)qy_setTransparent:(BOOL)transparent;
 ```
 
 ## Installation

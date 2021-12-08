@@ -62,17 +62,15 @@
     }
 }
 
-- (void)qy_setIsTransparent:(BOOL)isTransparent {
+- (void)qy_setTransparent:(BOOL)transparent {
     if (@available(iOS 13.0, *)) {
-        if (isTransparent) {
-            self.hidden = YES;
+        if (transparent) {
             [self.qy_standardAppearance configureWithTransparentBackground];
-            self.hidden = NO;
         } else {
             [self.qy_standardAppearance configureWithDefaultBackground];
         }
     } else {
-        UIImage *image = isTransparent ? [[UIImage alloc]init] : nil ;
+        UIImage *image = transparent ? [[UIImage alloc]init] : nil ;
         [self setBackgroundImage:image forBarMetrics:UIBarMetricsDefault];
         self.shadowImage = image;
     }
